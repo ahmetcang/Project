@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" onKeyTyped="#clicked" prefHeight="332.0" prefWidth="306.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.FXMLDocumentController">
+    <children>
+      <Rectangle fx:id="box7" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="84.0" layoutX="35.0" layoutY="40.0" onKeyTyped="#clicked" onMouseClicked="#play7" stroke="BLACK" strokeType="INSIDE" width="78.0" />
+      <Rectangle fx:id="box9" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="84.0" layoutX="191.0" layoutY="40.0" onKeyTyped="#clicked" onMouseClicked="#play9" stroke="BLACK" strokeType="INSIDE" width="78.0" />
+      <Rectangle fx:id="box8" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="84.0" layoutX="113.0" layoutY="40.0" onKeyTyped="#clicked" onMouseClicked="#play8" stroke="BLACK" strokeType="INSIDE" width="78.0" />
+      <Rectangle fx:id="box4" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="84.0" layoutX="35.0" layoutY="124.0" onKeyTyped="#clicked" onMouseClicked="#play4" stroke="BLACK" strokeType="INSIDE" width="78.0" />
+      <Rectangle fx:id="box6" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="84.0" layoutX="191.0" layoutY="124.0" onKeyTyped="#clicked" onMouseClicked="#play6" stroke="BLACK" strokeType="INSIDE" width="78.0" />
+      <Rectangle fx:id="box5" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="84.0" layoutX="113.0" layoutY="124.0" onKeyTyped="#clicked" onMouseClicked="#play5" stroke="BLACK" strokeType="INSIDE" width="78.0" />
+      <Rectangle fx:id="box1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="84.0" layoutX="35.0" layoutY="208.0" onKeyTyped="#clicked" onMouseClicked="#play1" stroke="BLACK" strokeType="INSIDE" width="78.0" />
+      <Rectangle fx:id="box2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="84.0" layoutX="113.0" layoutY="208.0" onKeyTyped="#clicked" onMouseClicked="#play2" stroke="BLACK" strokeType="INSIDE" width="78.0" />
+      <Rectangle fx:id="box3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="84.0" layoutX="191.0" layoutY="208.0" onKeyTyped="#clicked" onMouseClicked="#play3" stroke="BLACK" strokeType="INSIDE" width="78.0" />
+    </children>
+</AnchorPane>
